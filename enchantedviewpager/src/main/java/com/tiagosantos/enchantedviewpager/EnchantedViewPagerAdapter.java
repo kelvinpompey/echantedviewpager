@@ -33,7 +33,7 @@ public class EnchantedViewPagerAdapter extends PagerAdapter {
 
     @Override
     public boolean isViewFromObject(View view, Object object) {
-        return false;
+        return view == object;
     }
 
     public void enableCarrousel(){
